@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Meu Site Pessoal</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Bem-vindo ao Meu Site Pessoal</h1>
+            <p>Um espaço onde compartilho meus projetos, ideias e contatos.</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div id="about" class="container">
+            <h1>Sobre Mim</h1>
+            <img src="meu_foto.jpg" alt="Minha Foto">
+            <p>Olá, eu sou [Seu Nome], um profissional dedicado na área de [Sua Área]. Tenho experiência em [Suas Experiências] e sou apaixonado por [Suas Paixões].</p>
+        </div>
+
+        <div id="portfolio" class="container">
+            <h1>Portfólio</h1>
+            <p>Aqui estão alguns dos meus projetos mais recentes:</p>
+            <img src="projeto1.jpg" alt="Projeto 1">
+            <img src="projeto2.jpg" alt="Projeto 2">
+            <img src="projeto3.jpg" alt="Projeto 3">
+        </div>
+
+        <div id="blog" class="container">
+            <h1>Blog</h1>
+            <article class="post">
+                <h2>Primeiro Post</h2>
+                <p>Conteúdo do primeiro post...</p>
+            </article>
+            <article class="post">
+                <h2>Segundo Post</h2>
+                <p>Conteúdo do segundo post...</p>
+            </article>
+            <div class="comment-section">
+                <h3>Comentários</h3>
+                <div class="comment">
+                    <p><strong>Nome:</strong> Comentário exemplo 1</p>
+                </div>
+                <div class="comment">
+                    <p><strong>Nome:</strong> Comentário exemplo 2</p>
+                </div>
+                <form id="commentForm">
+                    <input type="text" id="commentName" placeholder="Seu Nome">
+                    <textarea id="commentText" placeholder="Seu Comentário"></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="contact" class="container">
+            <h1>Contato</h1>
+            <form id="contactForm">
+                <input type="text" placeholder="Seu Nome">
+                <input type="email" placeholder="Seu Email">
+                <textarea placeholder="Sua Mensagem"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+
+        <div id="testimonials" class="container">
+            <h1>Depoimentos</h1>
+            <p>"Trabalhar com [Seu Nome] foi uma experiência incrível!" - Cliente 1</p>
+            <p>"Recomendo muito os serviços de [Seu Nome]." - Cliente 2</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Meu Site Pessoal &copy; 2024</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

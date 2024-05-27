@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #77aaff;
+}
+header a:hover {
+    color: #cccccc;
+}
+#showcase {
+    min-height: 400px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+#showcase h1 {
+    font-size: 55px;
+    margin-top: 0;
+}
+#showcase p {
+    font-size: 20px;
+}
+#main {
+    padding: 20px;
+    background: #fff;
+    color: #333;
+}
+#main h1, #main h2 {
+    text-align: center;
+}
+#about, #portfolio, #blog, #contact, #testimonials {
+    padding: 20px 0;
+}
+#about img, #portfolio img {
+    max-width: 100%;
+    height: auto;
+}
+.dark {
+    padding: 15px;
+    background: #333;
+    color: #fff;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.btn:hover {
+    background-color: #555;
+}
+.btn:active {
+    background-color: #555;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+form button {
+    font-size: 16px;
+}
+.comment-section {
+    margin-top: 30px;
+}
+.comment-section h3 {
+    margin-bottom: 20px;
+}
+.comment {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
